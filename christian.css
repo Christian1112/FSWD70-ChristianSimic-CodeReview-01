@@ -1,0 +1,401 @@
+/* This is the whole body */
+
+body{
+
+	background-color: #FFFFFF;
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: sans-serif;
+
+}
+
+/* This is the background of the header */
+
+.header{
+
+	width: 100%;
+
+	height: 150px;
+
+	background-color: #EDEDED;
+
+	padding: 15px 0px;
+
+	float: left;
+
+}
+
+/* This is the image inside the header */
+
+.header img{
+
+	position: absolute;
+
+	float: left;
+
+}
+
+/* This is for the positioning of the sentence inside the header */
+
+.headertext{
+
+	width: 100%;
+
+	height: 150px;
+
+	float: left;
+
+	overflow: hidden;
+
+}
+
+/* This is the sentence inside the header */
+
+.header h1{
+
+	position: relative;
+
+	left: 440px;
+
+	line-height: 150px;
+
+	margin: 0;
+
+}
+
+/* This is the horizontal navbar */
+
+.navbar ul{
+
+	float: left;
+
+	list-style-type: none;
+
+	margin: 0;
+
+	padding: 0;
+
+	overflow: hidden;
+
+	background-color: #653D3D;
+
+	min-height: 50px;
+
+	height: auto;
+
+	width: 100%;
+
+}
+
+.navbar ul li{
+
+	float: left;
+
+}
+
+/* This is the hover effect for the navbar */
+
+.line:hover{
+
+	transition: 0.3s;
+
+	color: #000000;
+
+}
+
+.navbar ul li a{
+
+	display: block;
+
+	padding: 10px;
+
+	font-size: 1.5em;
+
+	text-decoration: none;
+
+	color: #FFFFFF;
+
+	margin-left: 10px;
+
+	font-weight: bold;
+
+}
+
+/* This is the background of the heading */
+
+.heading {
+
+	float: left;
+
+	width: 100%;
+
+	overflow: auto;
+
+	min-height: 400px;
+
+}
+
+/* This is the positioning of the heading */
+
+.headingtext{
+
+	position: relative;
+
+	max-width: 880px;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	margin: 108px 0px;
+
+}
+
+/* This is the sentence inside the heading */
+
+.heading h1{
+
+	color: #313131;
+
+	text-align: center;
+
+	font-size: 5.0em;
+
+	margin: 0;
+
+}
+
+/* This is the blogs line */
+
+.blogs ul{
+
+	float: left;
+
+	list-style-type: none;
+
+	margin: 0;
+
+	padding: 0;
+
+	overflow: hidden;
+
+	background-color: #978484;
+
+	height: 50px;
+
+	width: 100%;
+
+}
+
+.blogs ul li {
+
+	display: block;
+
+	padding: 10px;
+
+	font-size: 1.5em;
+
+	color: #FFFFFF;
+
+	margin-left: 10px;
+
+	font-weight: bold;
+
+}
+
+/* This is for all 4 images */
+
+.allimages{
+
+	float: left;
+
+}
+
+/* This is the space between the first two and the last two images */
+
+.space{
+
+	width: 100%;
+
+	float: left;
+
+	height: 1px;
+
+}
+
+div.images{
+
+	width: 40%;
+
+	float: left;
+
+	margin:  5%;
+
+}
+
+img{
+
+	max-width: 100%;
+
+	height: auto;
+
+}
+
+.images figcaption{
+
+	max-width: 100%;
+
+	font-weight: bold;
+
+}
+
+/* This is for the adjusted browser size so the images jump underneath each other */
+
+@media screen and (max-width: 800px){
+
+	div.images{
+
+		width: auto;
+
+		float: none;
+
+		margin: 10px 10px;
+
+	}
+
+	div.navbar ul li {
+
+		width: 25%;
+
+		text-align: center;
+
+	}
+
+}
+
+/* This is for the positioning of the footer */
+
+.bottom {
+
+	position: fixed;
+
+	width: 100%;
+
+	bottom: 129px;
+
+}
+
+/* This is the line above the footer */
+
+.bottomline{
+
+	width: 100%;
+
+	float: left;
+
+	height: 15px;
+
+	background-color: #978484;
+
+	margin:  5% 0 2% 0;
+
+}
+
+.footer{
+
+	float: left;
+
+	width: 100%;
+
+}
+
+/* This is for the positioning of the image and the text inside the footer */
+
+.footertext{
+
+	position: absolute;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	text-align: center;
+
+}
+
+.footertext img{
+
+	width: 50%;
+
+	height: auto;
+
+}
+
+/* This is for the textstuff in the other webpages */
+
+.article{
+
+	float: left;
+
+	width: 100%;
+
+	overflow: auto;
+
+	min-height: 400px;
+
+}
+
+.section{
+
+	position: relative;
+
+	max-width: 880px;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	margin: 108px 0px;
+
+}
+
+/* This is the image on the about me page */
+
+.avatar	{
+
+	width: 250px;
+
+	height: 250px;
+
+	float: left;
+
+	border: 5px solid #000000;
+
+	margin: 0 15px 15px 15px;
+
+}
+
+/* This is for the contact data on the contact page */
+
+.section table{
+
+	text-align: left;
+
+}
+
+.section table td{
+
+	padding-left: 15px;
+
+}
+
+/* This increases the font size of the headings */
+
+.section h1 u{
+
+	font-size: 2em;
+
+}
